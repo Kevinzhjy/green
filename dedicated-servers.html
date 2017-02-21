@@ -1,0 +1,281 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<title>Dedicated Servers</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+	<link href="css/bootstrap.css" rel='stylesheet' type='text/css' />
+	<script src="js/jquery-1.11.1.min.js"></script>
+	<link href="css/style.css" rel='stylesheet' type='text/css' />
+	<link href='http://fonts.useso.com/css?family=Ubuntu:300,400,500,700' rel='stylesheet' type='text/css'>
+	<script src="js/jquery.easydropdown.js"></script>
+	<link href="css/nav.css" rel="stylesheet" type="text/css" media="all"/>
+	<script type="text/javascript" src="js/move-top.js"></script>
+	<script type="text/javascript" src="js/easing.js"></script>
+	<script type="text/javascript">
+		jQuery(document).ready(function($) {
+			$(".scroll").click(function(event){
+				event.preventDefault();
+				$('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
+			});
+		});
+	</script>
+</head>
+<body>
+<!-- Header Starts Here -->
+<div class="banner inner-banner" >
+		<div class="header">
+	<div class="container">
+		<div class="logo">
+			<a href="index.html"><img src="images/logo.png" alt=""></a>
+		</div>
+		<div class="search-bar">
+			<input type="text"  value="Search" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Search';}">
+			<input type="submit" value="" />
+	   </div>
+		<span class="menu"> 目录</span>
+
+		<div class="banner-top">
+			<ul class="nav banner-nav">
+				<li><a class="active" href="index.html">首页</a></li>
+				<li class="dropdown1"><a class="down-scroll" href="">托管</a>
+					<ul class="dropdown2">
+						<li><a href="sharedhosting.html">共享主机</a></li>
+						<li><a href="vps.html">云服务器</a></li>
+						<li><a href="dedicated-servers.html">独立服务器</a></li>
+					</ul>
+				</li>
+				<li class="dropdown1"><a href="domain.html">范围</a>
+				</li>
+				<li class="dropdown1"><a class="down-scroll" href="">简介</a>
+					<ul class="dropdown2">
+						<li><a href="about.html">关于我们</a></li>
+						<li><a href="support.html">技术支持</a></li>
+						<li><a href="faq.html">FAQ</a></li>
+						<li><a href="login.html">登录</a></li>
+						<li><a href="plans-pricing.html">方案 & 价格</a></li>
+						<li><a href="404.html">404 - 错误页面</a></li>
+					</ul>
+				</li>
+				<li class="dropdown1"><a class="down-scroll" href="">博客</a>
+					<ul class="dropdown2">
+						<li><a href="blog.html">博客文章</a></li>
+						<li><a href="single.html">维护日志</a></li>
+					</ul>
+				</li>
+				<li class="dropdown1"><a href="contact.html">联系我们</a></li>
+			</ul>
+			<script>
+				$("span.menu").click(function(){
+					$(" ul.nav").slideToggle("slow" , function(){
+					});
+				});
+			</script>
+		</div>
+		<div class="clearfix"> </div>
+
+	</div>
+		</div>
+<!-- page heading -->
+	<div id="breadcrumb_wrapper">
+		<div class="container">
+			
+			<h3>专用服务器</h3>
+			<h6></h6>
+
+			<div class="clearfix"></div>
+		</div>
+	</div>
+</div>
+<div class="clearfix"> </div>
+<!-- Header Ends Here -->	
+
+	<div class="hd-content">
+		<div class="container">
+
+			<!-- dedicated servers -->
+			<div id="dedicated_servers">
+				<div class="ds_heading">
+					<div class="ds_processor">处理器</div>
+					<div class="ds_ram">存储器</div>
+					<div class="ds_cores">芯片数</div>
+					<div class="ds_diskspace">磁盘空间</div>
+					<div class="ds_bandwidth">带宽</div>
+					<div class="ds_price">价格 / 月</div>
+					<div class="ds_order"></div>
+					<div class="clearfix"></div>
+				</div>
+				<div class="ds">
+					<div class="ds_processor">Intel Xeon E3-1220 Dual Core</div>
+					<div class="ds_ram">2GB</div>
+					<div class="ds_cores">2</div>
+					<div class="ds_diskspace">250GB</div>
+					<div class="ds_bandwidth">1TB</div>
+					<div class="ds_price">$69.95</div>
+					<div class="ds_order"><a href="#" class="button">订购</a></div>
+					<div class="clearfix"></div>
+				</div>
+				<div class="ds">
+					<div class="ds_processor">Intel Xeon E3-1220 Quad Core</div>
+					<div class="ds_ram">4GB</div>
+					<div class="ds_cores">4</div>
+					<div class="ds_diskspace">500GB</div>
+					<div class="ds_bandwidth">2TB</div>
+					<div class="ds_price">$89.95</div>
+					<div class="ds_order"><a href="#" class="button">订购</a></div>
+					<div class="clearfix"></div>
+				</div>
+				<div class="ds">
+					<div class="ds_processor">Intel Dual Xeon E5-2603 V2 Quad Core</div>
+					<div class="ds_ram">8GB</div>
+					<div class="ds_cores">4</div>
+					<div class="ds_diskspace">1TB</div>
+					<div class="ds_bandwidth">2TB</div>
+					<div class="ds_price">$109.95</div>
+					<div class="ds_order"><a href="#" class="button">订购</a></div>
+					<div class="clearfix"></div>
+				</div>
+				<div class="ds">
+					<div class="ds_processor">AMD Quad x8 Opteron 6128</div>
+					<div class="ds_ram">8GB</div>
+					<div class="ds_cores">8</div>
+					<div class="ds_diskspace">1TB</div>
+					<div class="ds_bandwidth">3TB</div>
+					<div class="ds_price">$129.95</div>
+					<div class="ds_order"><a href="#" class="button">订购</a></div>
+					<div class="clearfix"></div>
+				</div>
+				<div class="ds">
+					<div class="ds_processor">Intel Xeon E5-1650, Hexa Core</div>
+					<div class="ds_ram">16GB</div>
+					<div class="ds_cores">6</div>
+					<div class="ds_diskspace">3TB</div>
+					<div class="ds_bandwidth">5TB</div>
+					<div class="ds_price">$179.95</div>
+					<div class="ds_order"><a href="#" class="button">订购</a></div>
+					<div class="clearfix"></div>
+				</div>
+				<div class="ds">
+					<div class="ds_processor">AMD Quad x16 Opteron 6272</div>
+					<div class="ds_ram">32GB</div>
+					<div class="ds_cores">16</div>
+					<div class="ds_diskspace">5TB</div>
+					<div class="ds_bandwidth">10TB</div>
+					<div class="ds_price">$245.95</div>
+					<div class="ds_order"><a href="#" class="button">订购</a></div>
+					<div class="clearfix"></div>
+				</div>
+			</div>
+
+			<div class="clearfix"></div>
+			<div class="space"></div>
+
+			<!-- hosting features -->
+			<h1 class="heading">主机功能</h1>
+
+			<div class="one_third feature">
+				<i class="icon-hdd"></i>
+				<h6>无限制磁盘空间</h6>
+			</div>
+
+			<div class="one_third feature">
+				<i class="icon-dashboard"></i>
+				<h6>无限制带宽</h6>
+			</div>
+
+			<div class="one_third last feature">
+				<i class="icon-gear"></i>
+				<h6>24/7 客户支持</h6>
+			</div>
+
+			<div class="clearfix"></div>
+			<div class="space2"></div>
+
+			<div class="one_third feature">
+				<i class="icon-cloud-upload"></i>
+				<h6>免费的每日备份</h6>
+			</div>
+
+			<div class="one_third feature">
+				<i class="icon-time"></i>
+				<h6>99.9% 运行时间保证</h6>
+			</div>
+
+			<div class="one_third last feature">
+				<i class="icon-shield"></i>
+				<h6>免费DDoS保护</h6>
+			</div>
+
+			<div class="clearfix"></div>
+
+		</div>
+	</div>
+
+<!-- /#Testimonials -->
+<!-- #Footer -->
+<footer>
+	<div class="container">
+		<div class="row">
+			<div class="col-md-6">
+				<span class="title">最新消息</span>
+				<p> <span class="greenText"></span> <span class="tweetTime">10 Minutes Ago</span></p>
+				<p><span class="tweetTime">1 Hour Ago</span></p>
+			</div>
+			<div class="col-md-2 col-xs-6 col-sm-4">
+				<ul class="footerMenu">
+					<li class="title">我们做的</li>
+					<li><a href="#">方案</a></li>
+					<li><a href="#">概述</a></li>
+					<li><a href="#">特色</a></li>
+					<li><a href="#">网络</a></li>
+					<li><a href="#">应用</a></li>
+				</ul>
+			</div>
+			<div class="col-md-2 col-xs-6 col-sm-4">
+				<ul class="footerMenu">
+					<li class="title">服务</li>
+					<li><a href="#">虚拟服务器</a></li>
+					<li><a href="#">专用服务器</a></li>
+					<li><a href="#">云服务器</a></li>
+					<li><a href="#">服务器管理</a></li>
+					<li><a href="#">脚本安装</a></li>
+				</ul>
+			</div>
+			<div class="col-md-2 col-xs-6 col-sm-4">
+				<ul class="footerAddress">
+					<li class="title">联系我们</li>
+					<li><strong>地址:</strong></li>
+					<li>北京朝阳</li>
+					<li><strong>电话:</strong></li>
+					<li>010 500 203</li>
+				</ul>
+			</div>
+		</div>
+		<hr>
+	</div>
+	<div class="copyrights">
+		<div class="container">
+<p></p>
+		</div>
+	</div>
+</footer>
+<!-- /#Footer -->
+<!-- here stars scrolling icon -->
+<script type="text/javascript">
+	$(document).ready(function() {
+		/*
+		 var defaults = {
+		 containerID: 'toTop', // fading element id
+		 containerHoverID: 'toTopHover', // fading element hover id
+		 scrollSpeed: 1200,
+		 easingType: 'linear'
+		 };
+		 */
+
+		$().UItoTop({ easingType: 'easeOutQuart' });
+
+	});
+</script>
+<!-- //here ends scrolling icon -->
+</body>
